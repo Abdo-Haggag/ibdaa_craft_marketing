@@ -1,0 +1,1 @@
+// This file has been removed as the receipt upload functionality is now handled via WhatsApp
