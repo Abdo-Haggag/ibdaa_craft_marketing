@@ -111,7 +111,7 @@ const ContactInfo = () => {
         </h3>
         <div className="space-y-2 text-sm text-muted-foreground">
           <p>
-            <span className="font-medium text-foreground">السجل التجاري:</span> 1234567890
+            <span className="font-medium text-foreground">السجل التجاري:</span> 1009090220
           </p>
         </div>
       </div>

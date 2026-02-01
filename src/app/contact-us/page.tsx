@@ -4,7 +4,6 @@ import ContactPageHeader from './components/ContactPageHeader';
 import QuickContactOptions from './components/QuickContactOptions';
 import ContactForm from './components/ContactForm';
 import ContactInfo from './components/ContactInfo';
-import LocationMap from './components/LocationMap';
 import FAQSection from './components/FAQSection';
 
 export const metadata: Metadata = {
@@ -27,10 +26,6 @@ export default function ContactUsPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
             <ContactForm />
             <ContactInfo />
-          </div>
-
-          <div className="mb-12">
-            <LocationMap />
           </div>
 
           <FAQSection />
@@ -80,9 +75,9 @@ export default function ContactUsPage() {
               <div>
                 <h4 className="text-lg font-semibold font-amiri mb-4">تواصل معنا</h4>
                 <ul className="space-y-2 text-sm text-white/80">
-                  <li>الهاتف: +966 50 123 4567</li>
-                  <li>البريد: info@ibdaacraft.sa</li>
-                  <li>الرياض، المملكة العربية السعودية</li>
+                  <li>الهاتف: +966 590 317 360</li>
+                  <li>البريد: info@creativecraftsa.com</li>
+                  <li>خميس مشيط - حي الخالدية</li>
                 </ul>
               </div>
             </div>

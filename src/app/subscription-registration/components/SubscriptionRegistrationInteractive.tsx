@@ -88,8 +88,11 @@ const SubscriptionRegistrationInteractive = () => {
     }
 
     // Validate discount code if provided
-    if (formData.discountCode.trim() && formData.discountCode.trim().toUpperCase() !== 'BAKM589') {
-      newErrors.discountCode = 'كود الخصم غير صحيح';
+    if (formData.discountCode.trim()) {
+      const code = formData.discountCode.trim().toUpperCase();
+      if (code !== 'BAKM589' && code !== 'AMIRA99' && code !== 'EBRAHIM33' && code !== 'ABDO777') {
+        newErrors.discountCode = 'كود الخصم غير صحيح';
+      }
     }
 
     setErrors(newErrors);
@@ -104,7 +107,8 @@ const SubscriptionRegistrationInteractive = () => {
 
     // Check discount code validity in real-time
     if (name === 'discountCode') {
-      if (value.trim().toUpperCase() === 'BAKM589') {
+      const code = value.trim().toUpperCase();
+      if (code === 'BAKM589' || code === 'AMIRA99' || code === 'EBRAHIM33' || code === 'ABDO777') {
         setDiscountApplied(true);
         setErrors((prev) => ({ ...prev, discountCode: undefined }));
       } else {

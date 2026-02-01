@@ -114,20 +114,20 @@ const AboutUsInteractive = () => {
 
   const storyPoints: StoryPoint[] = [
   {
-    year: '2020',
+    year: '2024',
     title: 'التأسيس',
     description:
     'بدأت رحلتنا بفكرة بسيطة: توفير خصومات حقيقية للعائلات السعودية',
     icon: 'SparklesIcon'
   },
   {
-    year: '2021',
+    year: '2024',
     title: 'التوسع',
     description: 'وصلنا إلى 100+ شريك تجاري في مختلف القطاعات',
     icon: 'ChartBarIcon'
   },
   {
-    year: '2023',
+    year: '2025',
     title: 'النمو',
     description: 'تجاوزنا 5000 عميل راضٍ عن خدماتنا',
     icon: 'UserGroupIcon'
@@ -270,12 +270,12 @@ const AboutUsInteractive = () => {
   const businessCredentials: BusinessCredential[] = [
   {
     label: 'رقم السجل التجاري',
-    value: '1010123456',
+    value: '1009090220',
     icon: 'DocumentTextIcon'
   },
   {
     label: 'تاريخ التأسيس',
-    value: '15/03/2020',
+    value: '27/08/2024',
     icon: 'CalendarIcon'
   }];
 
